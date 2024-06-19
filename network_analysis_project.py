@@ -5,7 +5,7 @@ import statistics as stat
 import numpy as np 
 from collections import Counter
 
-filepath = "./facebook.txt"
+filepath = "./map_text.txt"
 with open(filepath) as file:
     data = file.read()
 edges = []
