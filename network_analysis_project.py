@@ -1,9 +1,6 @@
 import networkx as nx 
 import matplotlib.pyplot as plt
-import seaborn as sns 
-import statistics as stat
-import numpy as np 
-from collections import Counter
+
 
 filepath = "./map_text.txt"
 with open(filepath) as file:
