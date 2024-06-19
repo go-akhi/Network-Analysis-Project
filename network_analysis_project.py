@@ -1,7 +1,6 @@
 import networkx as nx 
 import matplotlib.pyplot as plt
 
-
 filepath = "./map_text.txt"
 with open(filepath) as file:
     data = file.read()
